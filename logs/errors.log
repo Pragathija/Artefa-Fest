@@ -1,0 +1,4 @@
+ERROR 2026-01-27 00:48:41,748 chatbot_enhanced 4080 16912 Deep learning error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+ERROR 2026-01-27 00:48:41,748 chatbot_enhanced 4080 7900 Deep learning error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+ERROR 2026-01-27 00:50:06,395 chatbot_enhanced 4080 16912 Deep learning error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+ERROR 2026-01-27 00:50:44,495 chatbot_enhanced 4080 16912 Deep learning error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.

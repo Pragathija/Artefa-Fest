@@ -3744,3 +3744,11 @@ WARNING 2026-01-27 00:27:18,689 chatbot 14104 6148 spaCy not installed. Install 
 INFO 2026-01-27 00:28:15,218 scheduler 16984 13676 Log cleaner scheduler started - Error logs will be cleared every 5 minutes
 WARNING 2026-01-27 00:28:21,027 chatbot 16984 13676 spaCy not installed. Install with: pip install spacy
 ERROR 2026-01-27 00:30:53,273 middleware 16984 18884 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-27 00:47:15,266 scheduler 17548 8468 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-27 00:47:16,541 scheduler 4080 23496 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-27 00:47:21,321 chatbot 4080 23496 TextBlob not installed. Install with: pip install textblob
+INFO 2026-01-27 00:48:34,813 chatbot_enhanced 4080 7900 Deep Learning (Sentence Transformers) available
+ERROR 2026-01-27 00:48:41,748 chatbot_enhanced 4080 16912 Deep learning error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+ERROR 2026-01-27 00:48:41,748 chatbot_enhanced 4080 7900 Deep learning error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+ERROR 2026-01-27 00:50:06,395 chatbot_enhanced 4080 16912 Deep learning error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+ERROR 2026-01-27 00:50:44,495 chatbot_enhanced 4080 16912 Deep learning error: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
