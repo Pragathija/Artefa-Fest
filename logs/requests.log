@@ -6974,3 +6974,51 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 django.db.utils.OperationalError: no such column: core_event.max_common_questions
 ERROR 2026-01-28 18:56:38,194 log 21000 15940 Internal Server Error: /home/
+ERROR 2026-01-31 05:03:33,323 log 14216 26452 Internal Server Error: /edit-schedule/7/
+Traceback (most recent call last):
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\Downloads\ARTIFA FEST\core\views.py", line 1101, in edit_schedule
+    sched.order = int(request.POST.get('order', 0))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR 2026-01-31 05:03:33,465 log 14216 26452 Internal Server Error: /edit-schedule/7/
+ERROR 2026-01-31 05:07:08,097 log 22272 26500 Internal Server Error: /edit-schedule/7/
+Traceback (most recent call last):
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\Downloads\ARTIFA FEST\core\views.py", line 1101, in edit_schedule
+    sched.order = int(request.POST.get('order', 0))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR 2026-01-31 05:07:08,240 log 22272 26500 Internal Server Error: /edit-schedule/7/
+ERROR 2026-01-31 05:07:42,756 log 22272 26500 Internal Server Error: /edit-schedule/7/
+Traceback (most recent call last):
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\Downloads\ARTIFA FEST\core\views.py", line 1101, in edit_schedule
+    sched.order = int(request.POST.get('order', 0))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR 2026-01-31 05:07:42,772 log 22272 26500 Internal Server Error: /edit-schedule/7/

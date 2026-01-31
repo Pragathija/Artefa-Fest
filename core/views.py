@@ -1101,8 +1101,12 @@ def edit_schedule(request, sched_id):
         sched.order = int(request.POST.get('order', 0))
         
         event_id = request.POST.get('event')
-        if event_id:
-            sched.event = Event.objects.get(id=event_id)
+        if event_id and event_id.isdigit():
+            try:
+                sched.event = Event.objects.get(id=int(event_id))
+            except Event.DoesNotExist:
+                messages.error(request, f'Event with ID {event_id} does not exist.')
+                sched.event = None
         else:
             sched.event = None
         

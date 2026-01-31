@@ -1,0 +1,29 @@
+﻿python : WARNING 
+2026-01-31 
+14:43:27,286 
+APScheduler not 
+available. Error 
+logs will not be 
+auto-cleared.
+At line:1 char:1
++ python manage.py 
+collectstatic 
+--noinput > collectst
+atic_error.txt 2> ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (WARNING   
+  2026-01...e aut    
+o-cleared.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+
+0 static files copied to 'C:\Users\Mano Sathiyamoorthi\Downloads\copy of artifa\ARTIFA FEST - Copy\staticfiles', 139 unmodified, 361 post-processed.

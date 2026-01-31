@@ -261,7 +261,7 @@
                 <label class="form-label">
                     <i class="fas fa-heading me-2"></i>Timeline Title
                 </label>
-                <input type="text" name="title" class="form-input" value="{{ schedule.title }}" required>
+                <input type="text" name="title" class="form-input" value="{{ sched.title }}" required>
             </div>
 
             <!-- Description -->
@@ -269,7 +269,7 @@
                 <label class="form-label">
                     <i class="fas fa-align-left me-2"></i>Description
                 </label>
-                <textarea name="description" class="form-textarea">{{ schedule.description }}</textarea>
+                <textarea name="description" class="form-textarea">{{ sched.description }}</textarea>
             </div>
 
             <!-- Date -->
@@ -277,7 +277,7 @@
                 <label class="form-label">
                     <i class="fas fa-calendar me-2"></i>Date
                 </label>
-                <input type="date" name="date" class="form-input" value="{{ schedule.date|date:'Y-m-d' }}" required>
+                <input type="date" name="date" class="form-input" value="{{ sched.date|date:'Y-m-d' }}" required>
             </div>
 
             <!-- Time Row -->
@@ -286,13 +286,13 @@
                     <label class="form-label">
                         <i class="fas fa-play-circle me-2"></i>Start Time
                     </label>
-                    <input type="time" name="start_time" class="form-input" value="{{ schedule.start_time|date:'H:i' }}" required>
+                    <input type="time" name="start_time" class="form-input" value="{{ sched.start_time|date:'H:i' }}" required>
                 </div>
                 <div class="form-group">
                     <label class="form-label">
                         <i class="fas fa-stop-circle me-2"></i>End Time
                     </label>
-                    <input type="time" name="end_time" class="form-input" value="{{ schedule.end_time|date:'H:i' }}" required>
+                    <input type="time" name="end_time" class="form-input" value="{{ sched.end_time|date:'H:i' }}" required>
                 </div>
             </div>
 
@@ -301,7 +301,7 @@
                 <label class="form-label">
                     <i class="fas fa-list me-2"></i>Order (Priority)
                 </label>
-                <input type="number" name="order" class="form-input" value="{{ schedule.order }}">
+                <input type="number" name="order" class="form-input" value="{{ sched.order }}">
             </div>
 
             <!-- Event Selection -->
@@ -312,7 +312,7 @@
                 <select name="event" class="form-select">
                     <option value="">-- No Event --</option>
                     {% for event in events %}
-                    <option value="{{ event.id }}" {% if schedule.event_id == event.id %}selected{% endif %}>{{ event.name }}</option>
+                    <option value="{{ event.id }}" {% if sched.event_id == event.id %}selected{% endif %}>{{ event.name }}</option>
                     {% endfor %}
                 </select>
             </div>
@@ -320,7 +320,7 @@
             <!-- Is Break -->
             <div class="form-group">
                 <div class="form-checkbox-group">
-                    <input type="checkbox" id="is_break" name="is_break" class="form-checkbox" {% if schedule.is_break %}checked{% endif %}>
+                    <input type="checkbox" id="is_break" name="is_break" class="form-checkbox" {% if sched.is_break %}checked{% endif %}>
                     <label for="is_break" class="checkbox-label">Mark as Break Time</label>
                 </div>
             </div>

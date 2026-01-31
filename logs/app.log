@@ -4581,3 +4581,367 @@ INFO 2026-01-29 16:07:57,873 chatbot_enhanced 12796 8788 Deep Learning match: si
 WARNING 2026-01-29 17:13:15,065 scheduler 26184 24964 APScheduler not available. Error logs will not be auto-cleared.
 WARNING 2026-01-29 17:13:16,277 scheduler 5352 20364 APScheduler not available. Error logs will not be auto-cleared.
 ERROR 2026-01-29 17:13:38,388 middleware 5352 7232 404 Not Found: GET /favicon.ico
+WARNING 2026-01-30 12:18:27,822 scheduler 15588 7528 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-30 12:18:28,809 scheduler 27660 26416 APScheduler not available. Error logs will not be auto-cleared.
+ERROR 2026-01-30 12:19:03,243 middleware 27660 2652 404 Not Found: GET /favicon.ico
+ERROR 2026-01-30 12:21:59,759 middleware 27660 22516 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 12:22:35,975 middleware 27660 18124 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 12:26:57,247 middleware 27660 18124 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 12:27:53,142 middleware 27660 18124 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+INFO 2026-01-30 12:29:47,044 views 27660 18124 Form submitted with data: {'csrfmiddlewaretoken': 'l7AeCOBCK2Rc6pKfAoU7JC0QKVZToXVV6dFCcIs2AaIlfLHLynRLaZDER7r3Swsl', 'full_name': 'M.Mano Sathiya Moorthi', 'register_number': '24243050', 'year': '2', 'department': 'AIDS', 'phone_number': '9025749011', 'email': '24243050@nec.edu.in', 'events': '2', 'team_name': '', 'team_member_count': '', 'password': '', 'confirm_password': '', 'team_members': ''}
+INFO 2026-01-30 12:29:47,132 views 27660 18124 Form is valid, proceeding with registration
+INFO 2026-01-30 12:29:47,138 views 27660 18124 Checking registration for: 24243050, 24243050@nec.edu.in
+INFO 2026-01-30 12:29:47,144 views 27660 18124 User already exists, retrieved: 33
+INFO 2026-01-30 12:29:47,144 views 27660 18124 User created: 33
+INFO 2026-01-30 12:29:47,144 views 27660 18124 Event selected: No.8's Vision Forge
+INFO 2026-01-30 12:29:47,168 views 27660 18124 Registration created: 76
+INFO 2026-01-30 12:29:47,170 views 27660 18124 Team members data parsed: 0 members
+INFO 2026-01-30 12:29:47,186 views 27660 18124 User logged in: 24243050
+INFO 2026-01-30 12:29:47,186 views 27660 18124 Registration completed successfully, redirecting to success page
+ERROR 2026-01-30 12:31:23,343 middleware 27660 18124 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 12:33:11,889 middleware 27660 18124 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-30 12:34:55,067 scheduler 28072 23456 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-30 12:36:48,250 scheduler 28528 6344 APScheduler not available. Error logs will not be auto-cleared.
+ERROR 2026-01-30 12:57:54,269 middleware 28528 23824 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 13:25:25,385 middleware 28528 8648 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 13:31:14,909 middleware 28528 8648 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 13:31:18,048 middleware 28528 8648 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 13:31:36,021 middleware 28528 8648 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+INFO 2026-01-30 13:37:54,396 views 28528 8648 Form submitted with data: {'csrfmiddlewaretoken': 'GB69uL1M3kfziIMl5IhaximBg0nZW5lgtsJKhGQl7CWkMUO3zbgZMzMggkggbxOq', 'full_name': 'M.Mano Sathiya Moorthi', 'register_number': '24243050', 'year': '2', 'department': 'AIDS', 'phone_number': '9025749011', 'email': '24243050@nec.edu.in', 'events': '7', 'team_name': '', 'team_member_count': '', 'password': '', 'confirm_password': '', 'team_members': ''}
+INFO 2026-01-30 13:37:54,469 views 28528 8648 Form is valid, proceeding with registration
+INFO 2026-01-30 13:37:54,469 views 28528 8648 Checking registration for: 24243050, 24243050@nec.edu.in
+INFO 2026-01-30 13:37:54,491 views 28528 8648 User already exists, retrieved: 33
+INFO 2026-01-30 13:37:54,491 views 28528 8648 User created: 33
+INFO 2026-01-30 13:37:54,491 views 28528 8648 Event selected: Eleven's Reality Check
+INFO 2026-01-30 13:37:54,501 views 28528 8648 Registration created: 77
+INFO 2026-01-30 13:37:54,501 views 28528 8648 Team members data parsed: 0 members
+INFO 2026-01-30 13:37:54,515 views 28528 8648 User logged in: 24243050
+INFO 2026-01-30 13:37:54,520 views 28528 8648 Registration completed successfully, redirecting to success page
+WARNING 2026-01-30 16:29:52,387 scheduler 6344 4432 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-30 16:29:53,188 scheduler 22092 17792 APScheduler not available. Error logs will not be auto-cleared.
+ERROR 2026-01-30 16:30:15,258 middleware 22092 9968 404 Not Found: GET /favicon.ico
+INFO 2026-01-30 17:02:43,199 views 22092 12164 Form submitted with data: {'csrfmiddlewaretoken': '4p3AO34N1jACvfvjURSL7UYdezciLznp09TRgVjvtn5AVPQHs2zyiEqcjgoIe6RY', 'full_name': 'arun', 'register_number': '24243052', 'year': '2', 'department': 'AIDS', 'phone_number': '9025749011', 'email': '24243052@nec.edu.in', 'events': '7', 'team_name': 'kaoushi', 'team_member_count': '2', 'password': '', 'confirm_password': '', 'team_members': '[{"register_number":"20253752","full_name":"kathir","email":"kathir27@gmail.com","phone":"9856374223","year":"2nd","department":"cse"},{"register_number":"24243031","full_name":"shiva","email":"shiva@gmail.com","phone":"56983665408","year":"2nd","department":"aids"}]'}
+WARNING 2026-01-30 17:02:43,295 views 22092 12164 Form validation failed: <ul class="errorlist"><li>password<ul class="errorlist" id="id_password_error"><li>Password is required when creating a team.</li></ul></li></ul>
+INFO 2026-01-30 17:05:35,808 views 22092 12164 Form submitted with data: {'csrfmiddlewaretoken': 'm5hAZEPcSPtvkxaIVKtsa03AagtslOE2BgA99EBrlEIdOB1R8VPQ6d7MsZokD12f', 'full_name': 'arun', 'register_number': '24243052', 'year': '2', 'department': 'AIDS', 'phone_number': '9025749011', 'email': 'manosathiyamoorthi951@gmail.com', 'events': '7', 'team_name': 'kaoushi', 'team_member_count': '2', 'password': 'kathi#27', 'confirm_password': 'kathi#27', 'team_members': '[{"register_number":"2354376","full_name":"mano","email":"mano@gamil.c0m","phone":"98564327","year":"2nd","department":"aids"},{"register_number":"2638467","full_name":"shiva","email":"shiva@gmail.com","phone":"9867542386","year":"2nd","department":"aids"}]'}
+INFO 2026-01-30 17:05:35,813 views 22092 12164 Form is valid, proceeding with registration
+INFO 2026-01-30 17:05:35,813 views 22092 12164 Checking registration for: 24243052, manosathiyamoorthi951@gmail.com
+INFO 2026-01-30 17:05:36,233 views 22092 12164 User already exists, retrieved: 80
+INFO 2026-01-30 17:05:36,233 views 22092 12164 User created: 80
+INFO 2026-01-30 17:05:36,233 views 22092 12164 Event selected: Eleven's Reality Check
+INFO 2026-01-30 17:05:36,243 views 22092 12164 Registration created: 78
+INFO 2026-01-30 17:05:36,244 views 22092 12164 Team members string received: [{"register_number":"2354376","full_name":"mano","email":"mano@gamil.c0m","phone":"98564327","year":"2nd","department":"aids"},{"register_number":"2638467","full_name":"shiva","email":"shiva@gmail.com","phone":"9867542386","year":"2nd","department":"aids"}]
+INFO 2026-01-30 17:05:36,245 views 22092 12164 Successfully parsed as JSON: <class 'list'>
+INFO 2026-01-30 17:05:36,245 views 22092 12164 Team members data parsed: 2 members
+INFO 2026-01-30 17:05:36,246 views 22092 12164 Team event processing: kaoushi
+WARNING 2026-01-30 17:05:36,246 views 22092 12164 Team size validation failed: intended_total=3, min=1, max=2
+INFO 2026-01-30 17:08:02,175 views 22092 12164 Form submitted with data: {'csrfmiddlewaretoken': 'Rd8AElZT0YicOe5UJUMG6DWWZPQK7fmO6or9OlL8tNxUiiW3W5842Q08hyLCpsK1', 'full_name': 'arun', 'register_number': '24243052', 'year': '2', 'department': 'AIDS', 'phone_number': '2323456987', 'email': 'manosathiyamoorthi951@gmail.com', 'events': '7', 'team_name': 'kathir', 'team_member_count': '2', 'password': '12345678', 'confirm_password': '12345678', 'team_members': '[{"register_number":"24376436","full_name":"kathir","email":"katir@gmail.com","phone":"985674254","year":"2nd","department":"aids"},{"register_number":"25364758","full_name":"mano","email":"mano@gmail.com","phone":"678439629","year":"3rd","department":"cse"}]'}
+INFO 2026-01-30 17:08:02,179 views 22092 12164 Form is valid, proceeding with registration
+INFO 2026-01-30 17:08:02,180 views 22092 12164 Checking registration for: 24243052, manosathiyamoorthi951@gmail.com
+WARNING 2026-01-30 17:08:02,182 views 22092 12164 Registration number 24243052 already registered for event Eleven's Reality Check
+INFO 2026-01-30 17:08:37,133 views 22092 12164 Form submitted with data: {'csrfmiddlewaretoken': 'AHVM208A3WdpcqK9sIUSZEDii5aqGf1mPSelc0UPwLs7GuBiFTggVRHuAO5iYspz', 'full_name': 'arun', 'register_number': '24243052', 'year': '2', 'department': 'AIDS', 'phone_number': '2323456987', 'email': 'manosathiyamoorthi951@gmail.com', 'events': '7', 'team_name': 'kathir', 'team_member_count': '2', 'password': 'kathir#27', 'confirm_password': 'kathir#27', 'team_members': '[{"register_number":"24376436","full_name":"kathir","email":"katir@gmail.com","phone":"985674254","year":"2nd","department":"aids"},{"register_number":"25364758","full_name":"mano","email":"mano@gmail.com","phone":"678439629","year":"3rd","department":"cse"}]'}
+INFO 2026-01-30 17:08:37,135 views 22092 12164 Form is valid, proceeding with registration
+INFO 2026-01-30 17:08:37,135 views 22092 12164 Checking registration for: 24243052, manosathiyamoorthi951@gmail.com
+WARNING 2026-01-30 17:08:37,135 views 22092 12164 Registration number 24243052 already registered for event Eleven's Reality Check
+INFO 2026-01-30 17:11:43,298 views 22092 12164 Form submitted with data: {'csrfmiddlewaretoken': 'O1CwTl0lXwVIAOWw6trWdcZ8EWMC3CsJ0oaM8zptdhXSCT2nXmq2IkGMfb9wpOV5', 'full_name': 'ARUN', 'register_number': '24243061', 'year': '2', 'department': 'AIDS', 'phone_number': '3456765478', 'email': 'rajannanthini144@gmail.com', 'events': '7', 'team_name': 'kathir', 'team_member_count': '1', 'password': '12345678', 'confirm_password': '12345678', 'team_members': '[{"register_number":"24243050","full_name":"mano","email":"mano@hmailcom","phone":"7865437212","year":"2nd","department":"aids"}]'}
+INFO 2026-01-30 17:11:43,298 views 22092 12164 Form is valid, proceeding with registration
+INFO 2026-01-30 17:11:43,304 views 22092 12164 Checking registration for: 24243061, rajannanthini144@gmail.com
+INFO 2026-01-30 17:11:43,725 views 22092 12164 New user created with password: 82
+INFO 2026-01-30 17:11:43,725 views 22092 12164 User created: 82
+INFO 2026-01-30 17:11:43,725 views 22092 12164 Event selected: Eleven's Reality Check
+INFO 2026-01-30 17:11:43,730 views 22092 12164 Registration created: 79
+INFO 2026-01-30 17:11:43,730 views 22092 12164 Team members string received: [{"register_number":"24243050","full_name":"mano","email":"mano@hmailcom","phone":"7865437212","year":"2nd","department":"aids"}]
+INFO 2026-01-30 17:11:43,730 views 22092 12164 Successfully parsed as JSON: <class 'list'>
+INFO 2026-01-30 17:11:43,730 views 22092 12164 Team members data parsed: 1 members
+INFO 2026-01-30 17:11:43,730 views 22092 12164 Team event processing: kathir
+INFO 2026-01-30 17:11:44,158 views 22092 12164 Team created: 45 - kathir
+INFO 2026-01-30 17:11:44,158 views 22092 12164 Team leader added to TeamMember: ARUN
+INFO 2026-01-30 17:11:44,158 views 22092 12164 Updated registration with team fields
+INFO 2026-01-30 17:11:44,158 views 22092 12164 Processing 1 team members for TeamMember table
+INFO 2026-01-30 17:11:44,158 views 22092 12164 [1/1] Processing team member: 24243050 - mano
+INFO 2026-01-30 17:11:44,170 views 22092 12164 [1/1] Queued for creation: 24243050
+INFO 2026-01-30 17:11:44,171 views 22092 12164 Batch creating 1 new registrations
+INFO 2026-01-30 17:11:44,172 views 22092 12164 Created registration: 80 - 24243050
+INFO 2026-01-30 17:11:44,175 views 22092 12164 Batch creating 1 TeamMembers
+INFO 2026-01-30 17:11:44,175 views 22092 12164 Successfully added 1 team members
+INFO 2026-01-30 17:11:44,175 views 22092 12164 Updated registration.team_members count: 2
+INFO 2026-01-30 17:11:44,175 views 22092 12164 User logged in: 24243061
+INFO 2026-01-30 17:11:44,175 views 22092 12164 Registration completed successfully, redirecting to success page
+INFO 2026-01-30 17:16:37,062 views 22092 9300 Form submitted with data: {'csrfmiddlewaretoken': 'dB4w9cRrRtWCxErmSLjawAOLD0cxvZfrRBz9Kucgq3YBdeGWP3ssZYpv2mRLPnnj', 'full_name': 'arun', 'register_number': '24243052', 'year': '2', 'department': 'AIDS', 'phone_number': '9025749011', 'email': 'manosathiyamoorthi951@gmail.com', 'events': '6', 'team_name': 'kathir', 'team_member_count': '4', 'password': '12345678', 'confirm_password': '12345678', 'team_members': '[{"register_number":"24368632","full_name":"kathir","email":"kathir@gmail.com","phone":"9867543678","year":"2nd","department":"aids"},{"register_number":"98765432","full_name":"mano","email":"mano@gmail.com","phone":"6789542356","year":"3rd","department":"cse"},{"register_number":"24637452","full_name":"saro","email":"saro@gmail.com","phone":"6789547623","year":"2nd","department":"ece"},{"register_number":"23654587","full_name":"sathiya","email":"sathiya@gmail.com","phone":"9876456787","year":"2nd","department":"it"}]'}
+INFO 2026-01-30 17:16:37,066 views 22092 9300 Form is valid, proceeding with registration
+INFO 2026-01-30 17:16:37,068 views 22092 9300 Checking registration for: 24243052, manosathiyamoorthi951@gmail.com
+INFO 2026-01-30 17:16:37,487 views 22092 9300 User already exists, retrieved: 80
+INFO 2026-01-30 17:16:37,488 views 22092 9300 User created: 80
+INFO 2026-01-30 17:16:37,489 views 22092 9300 Event selected: Make Your Hellfire Club
+INFO 2026-01-30 17:16:37,494 views 22092 9300 Registration created: 81
+INFO 2026-01-30 17:16:37,495 views 22092 9300 Team members string received: [{"register_number":"24368632","full_name":"kathir","email":"kathir@gmail.com","phone":"9867543678","year":"2nd","department":"aids"},{"register_number":"98765432","full_name":"mano","email":"mano@gmail.com","phone":"6789542356","year":"3rd","department":"cse"},{"register_number":"24637452","full_name":"saro","email":"saro@gmail.com","phone":"6789547623","year":"2nd","department":"ece"},{"register_number":"23654587","full_name":"sathiya","email":"sathiya@gmail.com","phone":"9876456787","year":"2nd","department":"it"}]
+INFO 2026-01-30 17:16:37,495 views 22092 9300 Successfully parsed as JSON: <class 'list'>
+INFO 2026-01-30 17:16:37,495 views 22092 9300 Team members data parsed: 4 members
+INFO 2026-01-30 17:16:37,495 views 22092 9300 Team event processing: kathir
+INFO 2026-01-30 17:16:37,943 views 22092 9300 Team created: 46 - kathir
+INFO 2026-01-30 17:16:37,943 views 22092 9300 Team leader added to TeamMember: arun
+INFO 2026-01-30 17:16:37,943 views 22092 9300 Updated registration with team fields
+INFO 2026-01-30 17:16:37,943 views 22092 9300 Processing 4 team members for TeamMember table
+INFO 2026-01-30 17:16:37,943 views 22092 9300 [1/4] Processing team member: 24368632 - kathir
+INFO 2026-01-30 17:16:37,943 views 22092 9300 [1/4] Queued for creation: 24368632
+INFO 2026-01-30 17:16:37,943 views 22092 9300 [2/4] Processing team member: 98765432 - mano
+INFO 2026-01-30 17:16:37,952 views 22092 9300 [2/4] Queued for creation: 98765432
+INFO 2026-01-30 17:16:37,953 views 22092 9300 [3/4] Processing team member: 24637452 - saro
+INFO 2026-01-30 17:16:37,955 views 22092 9300 [3/4] Queued for creation: 24637452
+INFO 2026-01-30 17:16:37,955 views 22092 9300 [4/4] Processing team member: 23654587 - sathiya
+INFO 2026-01-30 17:16:37,957 views 22092 9300 [4/4] Queued for creation: 23654587
+INFO 2026-01-30 17:16:37,958 views 22092 9300 Batch creating 4 new registrations
+INFO 2026-01-30 17:16:37,961 views 22092 9300 Created registration: 82 - 24368632
+INFO 2026-01-30 17:16:37,961 views 22092 9300 Created registration: 83 - 98765432
+INFO 2026-01-30 17:16:37,961 views 22092 9300 Created registration: 84 - 24637452
+INFO 2026-01-30 17:16:37,961 views 22092 9300 Created registration: 85 - 23654587
+INFO 2026-01-30 17:16:37,961 views 22092 9300 Batch creating 4 TeamMembers
+INFO 2026-01-30 17:16:37,961 views 22092 9300 Successfully added 4 team members
+INFO 2026-01-30 17:16:37,961 views 22092 9300 Updated registration.team_members count: 5
+INFO 2026-01-30 17:16:37,972 views 22092 9300 User logged in: 24243052
+INFO 2026-01-30 17:16:37,973 views 22092 9300 Registration completed successfully, redirecting to success page
+INFO 2026-01-30 17:17:02,203 views 22092 9300 [TEAM_LOGIN] Team found: kathir, checking password...
+INFO 2026-01-30 17:17:02,204 views 22092 9300 [TEAM_LOGIN] Team.password exists: True
+INFO 2026-01-30 17:17:02,614 views 22092 9300 [TEAM_LOGIN] Team.password check result: True
+INFO 2026-01-30 17:17:02,614 views 22092 9300 [TEAM_LOGIN] Successfully authenticated: kathir
+WARNING 2026-01-30 18:04:20,400 scheduler 19164 6540 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-30 18:04:21,583 scheduler 6856 19284 APScheduler not available. Error logs will not be auto-cleared.
+ERROR 2026-01-30 18:04:56,456 middleware 6856 21120 404 Not Found: GET /favicon.ico
+ERROR 2026-01-30 18:05:14,253 middleware 6856 3092 404 Not Found: GET /home/3456
+WARNING 2026-01-30 19:43:25,825 scheduler 10892 8060 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-30 19:43:26,719 scheduler 14216 13880 APScheduler not available. Error logs will not be auto-cleared.
+ERROR 2026-01-30 19:43:47,893 middleware 14216 14072 404 Not Found: GET /favicon.ico
+ERROR 2026-01-30 19:43:50,893 middleware 14216 14612 404 Not Found: GET /progress-summary/
+ERROR 2026-01-30 19:53:15,401 middleware 14216 20104 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 20:49:41,645 middleware 14216 7796 404 Not Found: GET /favicon.ico
+ERROR 2026-01-31 05:03:33,332 middleware 14216 26452 500 Internal Server Error: POST /edit-schedule/7/
+WARNING 2026-01-31 05:05:44,506 scheduler 21132 2996 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:06:11,796 scheduler 25868 19944 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:06:12,514 scheduler 23780 27240 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:06:43,439 scheduler 22272 26028 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:06:51,109 scheduler 26808 20044 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:06:51,874 scheduler 15068 10908 APScheduler not available. Error logs will not be auto-cleared.
+ERROR 2026-01-31 05:07:08,099 middleware 22272 26500 500 Internal Server Error: POST /edit-schedule/7/
+ERROR 2026-01-31 05:07:42,756 middleware 22272 26500 500 Internal Server Error: POST /edit-schedule/7/
+WARNING 2026-01-31 05:08:01,160 scheduler 14956 19464 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:08:01,880 scheduler 12120 27104 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:10:28,264 scheduler 12032 15104 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:10:40,994 scheduler 1876 13928 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:10:58,174 scheduler 21936 4776 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:11:13,773 scheduler 10092 22540 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:11:37,621 scheduler 25528 3324 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:11:54,601 scheduler 24700 24184 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:12:13,157 scheduler 13740 3636 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:12:27,098 scheduler 22740 11860 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:12:40,313 scheduler 17368 5824 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:12:50,112 scheduler 3756 24332 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:13:04,295 scheduler 14536 19956 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:13:09,525 scheduler 22644 21980 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:13:37,702 scheduler 20556 16972 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:14:01,799 scheduler 27360 15788 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:14:11,121 scheduler 22408 20476 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:24:00,119 views 22272 1336 Form submitted with data: {'csrfmiddlewaretoken': 'oR0xKv4VzJHL2KkvtzB9FGjGRaRWbkOrVFHEgOjzyjvQC0QUolXKJvFQrvvwTJyw', 'full_name': 'M.Mano Sathiya Moorthi', 'register_number': '24243050', 'year': '2', 'department': 'AIDS', 'phone_number': '9025749011', 'email': '24243050@nec.edu.in', 'events': '17', 'team_name': 'EF', 'team_member_count': '4', 'password': '12345678', 'confirm_password': '12345678', 'team_members': '[{"register_number":"24243065","full_name":"Saro","email":"24243065@nec.edu.in","phone":"9025749012","year":"2n Year","department":"AIDS"},{"register_number":"24243066","full_name":"Saro1","email":"24243066@nec.edu.in","phone":"9025749013","year":"2nd Year","department":"AIDS"},{"register_number":"24243067","full_name":"Saro2","email":"24243067@nec.edu.in","phone":"9025749014","year":"2nd Year","department":"AIDS"},{"register_number":"24243068","full_name":"Saro3","email":"24243068@nec.edu.in","phone":"9025749015","year":"2nd Year","department":"AIDS"}]'}
+INFO 2026-01-31 05:24:00,155 views 22272 1336 Form is valid, proceeding with registration
+INFO 2026-01-31 05:24:00,155 views 22272 1336 Checking registration for: 24243050, 24243050@nec.edu.in
+INFO 2026-01-31 05:24:00,586 views 22272 1336 User already exists, retrieved: 33
+INFO 2026-01-31 05:24:00,588 views 22272 1336 User created: 33
+INFO 2026-01-31 05:24:00,589 views 22272 1336 Event selected: Hawkins Premier League (IPL Auction)
+INFO 2026-01-31 05:24:00,589 views 22272 1336 Registration created: 86
+INFO 2026-01-31 05:24:00,589 views 22272 1336 Team members string received: [{"register_number":"24243065","full_name":"Saro","email":"24243065@nec.edu.in","phone":"9025749012","year":"2n Year","department":"AIDS"},{"register_number":"24243066","full_name":"Saro1","email":"24243066@nec.edu.in","phone":"9025749013","year":"2nd Year","department":"AIDS"},{"register_number":"24243067","full_name":"Saro2","email":"24243067@nec.edu.in","phone":"9025749014","year":"2nd Year","department":"AIDS"},{"register_number":"24243068","full_name":"Saro3","email":"24243068@nec.edu.in","phone":"9025749015","year":"2nd Year","department":"AIDS"}]
+INFO 2026-01-31 05:24:00,589 views 22272 1336 Successfully parsed as JSON: <class 'list'>
+INFO 2026-01-31 05:24:00,589 views 22272 1336 Team members data parsed: 4 members
+INFO 2026-01-31 05:24:00,589 views 22272 1336 Team event processing: EF
+INFO 2026-01-31 05:24:01,021 views 22272 1336 Team created: 47 - EF
+INFO 2026-01-31 05:24:01,022 views 22272 1336 Team leader added to TeamMember: M.Mano Sathiya Moorthi
+INFO 2026-01-31 05:24:01,024 views 22272 1336 Updated registration with team fields
+INFO 2026-01-31 05:24:01,024 views 22272 1336 Processing 4 team members for TeamMember table
+INFO 2026-01-31 05:24:01,026 views 22272 1336 [1/4] Processing team member: 24243065 - Saro
+INFO 2026-01-31 05:24:01,027 views 22272 1336 [1/4] Queued for creation: 24243065
+INFO 2026-01-31 05:24:01,028 views 22272 1336 [2/4] Processing team member: 24243066 - Saro1
+INFO 2026-01-31 05:24:01,029 views 22272 1336 [2/4] Queued for creation: 24243066
+INFO 2026-01-31 05:24:01,030 views 22272 1336 [3/4] Processing team member: 24243067 - Saro2
+INFO 2026-01-31 05:24:01,032 views 22272 1336 [3/4] Queued for creation: 24243067
+INFO 2026-01-31 05:24:01,033 views 22272 1336 [4/4] Processing team member: 24243068 - Saro3
+INFO 2026-01-31 05:24:01,035 views 22272 1336 [4/4] Queued for creation: 24243068
+INFO 2026-01-31 05:24:01,036 views 22272 1336 Batch creating 4 new registrations
+INFO 2026-01-31 05:24:01,040 views 22272 1336 Created registration: 87 - 24243065
+INFO 2026-01-31 05:24:01,040 views 22272 1336 Created registration: 88 - 24243066
+INFO 2026-01-31 05:24:01,041 views 22272 1336 Created registration: 89 - 24243067
+INFO 2026-01-31 05:24:01,041 views 22272 1336 Created registration: 90 - 24243068
+INFO 2026-01-31 05:24:01,044 views 22272 1336 Batch creating 4 TeamMembers
+INFO 2026-01-31 05:24:01,046 views 22272 1336 Successfully added 4 team members
+INFO 2026-01-31 05:24:01,048 views 22272 1336 Updated registration.team_members count: 5
+INFO 2026-01-31 05:24:01,054 views 22272 1336 User logged in: 24243050
+INFO 2026-01-31 05:24:01,055 views 22272 1336 Registration completed successfully, redirecting to success page
+INFO 2026-01-31 05:24:51,324 views 22272 1336 [TEAM_LOGIN] Team found: EF, checking password...
+INFO 2026-01-31 05:24:51,324 views 22272 1336 [TEAM_LOGIN] Team.password exists: True
+INFO 2026-01-31 05:24:51,738 views 22272 1336 [TEAM_LOGIN] Team.password check result: True
+INFO 2026-01-31 05:24:51,738 views 22272 1336 [TEAM_LOGIN] Successfully authenticated: EF
+WARNING 2026-01-31 05:26:49,222 scheduler 11744 14216 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:30:50,170 scheduler 1824 12548 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:32:01,178 scheduler 25248 24316 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:32:06,987 scheduler 6232 27156 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:32:12,612 scheduler 21980 11464 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:33:12,174 scheduler 21748 18856 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:33:30,062 scheduler 25444 6004 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:33:35,751 scheduler 15104 20468 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:34:26,453 scheduler 11072 12852 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:34:51,646 scheduler 23228 24264 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:34:57,061 scheduler 11064 22068 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:35:13,351 scheduler 10616 13956 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:35:18,778 scheduler 19172 22664 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:35:24,978 scheduler 10848 2904 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:35:32,943 scheduler 11344 13660 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:35:51,482 scheduler 24948 27268 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:36:04,388 scheduler 23128 16204 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:36:46,353 scheduler 15752 9060 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:37:00,992 scheduler 27356 22552 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:37:12,585 scheduler 21096 22996 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:37:19,976 scheduler 19228 16892 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:39:03,866 chatbot_enhanced 11744 12460 Deep Learning (Sentence Transformers) available
+INFO 2026-01-31 05:39:09,781 chatbot_enhanced 11744 12460 Deep Learning match: similarity=0.821, final_confidence=0.821
+WARNING 2026-01-31 05:39:23,904 scheduler 24092 18356 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:39:38,502 scheduler 24768 12328 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:40:42,071 scheduler 21680 20368 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:40:48,109 scheduler 12160 1668 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:40:55,195 scheduler 23976 27504 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:41:07,901 scheduler 14068 17996 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:41:13,033 scheduler 24680 26168 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:42:06,054 scheduler 13784 21292 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:42:10,853 scheduler 19824 25416 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:42:15,891 scheduler 2500 24812 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:43:18,908 scheduler 20216 10252 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:43:26,495 scheduler 23684 19156 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:43:32,669 scheduler 17616 1388 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:43:53,564 scheduler 25024 4720 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:44:02,225 chatbot 25024 4720 Found training match for 'What are the events in ARTIFA FEST?' with confidence 0.73
+INFO 2026-01-31 05:44:40,060 chatbot_enhanced 11744 16964 Deep Learning match: similarity=0.821, final_confidence=0.821
+INFO 2026-01-31 05:44:55,592 chatbot_enhanced 11744 16964 Deep Learning match: similarity=0.644, final_confidence=0.644
+INFO 2026-01-31 05:45:30,269 chatbot_enhanced 11744 16964 Deep Learning match: similarity=0.699, final_confidence=0.699
+INFO 2026-01-31 05:45:49,530 chatbot_enhanced 11744 16964 Deep Learning match: similarity=0.625, final_confidence=0.625
+WARNING 2026-01-31 05:47:09,852 scheduler 6716 15936 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:47:16,531 scheduler 18504 15512 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:47:25,423 chatbot 18504 15512 Found training match for 'Tell me about Never Ending AI Codeverse' with confidence 0.72
+INFO 2026-01-31 05:47:26,153 chatbot 18504 15512 Found training match for 'Tell me about Hawkins Premier League' with confidence 0.60
+INFO 2026-01-31 05:47:26,894 chatbot 18504 15512 Found training match for 'Where are the events held?' with confidence 0.85
+WARNING 2026-01-31 05:47:40,147 scheduler 228 9356 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:48:01,210 chatbot_enhanced 11744 16964 Deep Learning match: similarity=0.771, final_confidence=0.771
+INFO 2026-01-31 05:48:17,772 chatbot_enhanced 11744 16964 Deep Learning match: similarity=0.690, final_confidence=0.690
+WARNING 2026-01-31 05:49:03,708 scheduler 20508 24932 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:49:14,271 scheduler 7720 14020 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:49:23,248 chatbot 7720 14020 Found training match for 'Where are the events held?' with confidence 0.85
+INFO 2026-01-31 05:49:24,021 chatbot 7720 14020 Found training match for 'What are the event venues?' with confidence 0.75
+INFO 2026-01-31 05:49:24,758 chatbot 7720 14020 Found training match for 'Event locations and venues' with confidence 0.85
+WARNING 2026-01-31 05:49:37,277 scheduler 27040 23080 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:49:43,556 scheduler 23624 13848 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:49:53,367 scheduler 11308 7724 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:49:58,706 scheduler 17872 26868 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:50:07,435 chatbot 17872 26868 Found training match for 'Where are the events held?' with confidence 0.85
+WARNING 2026-01-31 05:50:12,230 scheduler 24868 26160 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:50:16,998 scheduler 26316 16268 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:50:43,039 chatbot_enhanced 11744 16964 Deep Learning match: similarity=0.747, final_confidence=0.747
+WARNING 2026-01-31 05:51:16,192 scheduler 15088 1552 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:51:21,439 scheduler 8452 13744 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:51:26,519 scheduler 13336 24828 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:51:35,636 chatbot 13336 24828 Found training match for 'Where are the events held?' with confidence 0.85
+INFO 2026-01-31 05:51:36,346 chatbot 13336 24828 Found training match for 'What are the event venues?' with confidence 0.75
+INFO 2026-01-31 05:51:37,081 chatbot 13336 24828 Found training match for 'Event locations and venues' with confidence 0.85
+INFO 2026-01-31 05:52:08,001 chatbot_enhanced 11744 16964 Deep Learning match: similarity=0.779, final_confidence=0.779
+WARNING 2026-01-31 05:53:02,198 scheduler 3944 25248 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:53:07,188 scheduler 4776 22852 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:54:06,796 scheduler 25940 23832 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:54:27,987 scheduler 25400 20228 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:54:32,884 scheduler 25476 18312 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:54:37,557 scheduler 4232 25016 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:54:45,584 chatbot 4232 25016 Found training match for 'Tell me about Never Ending AI Codeverse' with confidence 0.65
+WARNING 2026-01-31 05:54:50,431 scheduler 4248 18512 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:54:58,403 chatbot 4248 18512 Found training match for 'Tell me about Hawkins Premier League' with confidence 0.60
+WARNING 2026-01-31 05:56:32,124 scheduler 25672 26992 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:56:37,825 scheduler 9256 6524 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:56:42,731 scheduler 22928 23312 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:56:50,831 chatbot 22928 23312 Found training match for 'What is ARTIFA FEST?' with confidence 0.52
+WARNING 2026-01-31 05:56:56,445 scheduler 4412 18228 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:57:04,555 chatbot 4412 18228 Found training match for 'What is the timeline for ARTIFA FEST?' with confidence 0.56
+WARNING 2026-01-31 05:57:42,744 scheduler 18452 4168 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:57:47,887 scheduler 11220 19384 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:57:52,707 scheduler 23148 18868 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:58:00,867 chatbot 23148 18868 Found training match for 'What are the events?' with confidence 0.47
+WARNING 2026-01-31 05:58:07,287 scheduler 14924 10720 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:58:15,535 chatbot 14924 10720 Found training match for 'What are the registration rules?' with confidence 0.54
+WARNING 2026-01-31 05:58:59,121 scheduler 12668 25344 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:59:06,563 scheduler 17592 23784 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 05:59:11,555 scheduler 3988 12500 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:59:19,729 chatbot 3988 12500 Found training match for 'Tell me about technical events' with confidence 0.57
+WARNING 2026-01-31 05:59:25,299 scheduler 11712 1072 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:59:33,237 chatbot 11712 1072 Found training match for 'What is the difference between technical and non-technical events?' with confidence 0.70
+WARNING 2026-01-31 05:59:38,338 scheduler 24204 5996 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 05:59:46,233 chatbot 24204 5996 Found training match for 'technical events details' with confidence 0.44
+INFO 2026-01-31 06:00:25,601 chatbot_enhanced 11744 16964 Deep Learning match: similarity=0.932, final_confidence=0.982
+WARNING 2026-01-31 06:01:40,603 scheduler 23152 14292 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 06:01:45,705 scheduler 23904 1844 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 06:01:49,841 scheduler 24580 24180 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 06:01:57,843 chatbot 24580 24180 Found training match for 'Tell me about National Engineering College' with confidence 0.65
+WARNING 2026-01-31 06:02:03,264 scheduler 15576 1172 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 06:02:11,378 chatbot 15576 1172 Found training match for 'What departments are available at National Engineering College?' with confidence 0.54
+WARNING 2026-01-31 06:03:12,517 scheduler 1576 23096 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 06:03:22,398 scheduler 1844 23904 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 06:03:29,752 scheduler 3828 8636 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 06:03:38,026 chatbot 3828 8636 Found training match for 'Tell me about the Artificial Intelligence and Data Science department' with confidence 0.77
+WARNING 2026-01-31 06:03:43,208 scheduler 26580 26196 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 06:03:51,295 chatbot 26580 26196 Found training match for 'What courses are offered in AI and Data Science department?' with confidence 0.59
+WARNING 2026-01-31 06:03:56,401 scheduler 22324 24052 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 06:04:04,512 chatbot 22324 24052 Found training match for 'courses in AI department' with confidence 0.60
+WARNING 2026-01-31 06:04:09,467 scheduler 26252 25272 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 06:04:17,313 chatbot 26252 25272 Found training match for 'What facilities are available in AI and Data Science department?' with confidence 0.70
+WARNING 2026-01-31 06:06:04,567 scheduler 23652 24148 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 06:06:16,686 scheduler 15956 18184 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 06:06:25,435 scheduler 16640 2616 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 06:06:33,468 chatbot 16640 2616 Found training match for 'Tell me about Mind-Flayer Detects event' with confidence 0.71
+WARNING 2026-01-31 06:06:39,923 scheduler 11208 22812 APScheduler not available. Error logs will not be auto-cleared.
+INFO 2026-01-31 06:06:47,914 chatbot 11208 22812 Found training match for 'Tell me about AI&DS department' with confidence 0.60
+INFO 2026-01-31 06:07:15,983 chatbot_enhanced 11744 23560 Deep Learning match: similarity=0.859, final_confidence=0.859
+INFO 2026-01-31 06:07:36,693 chatbot_enhanced 11744 23560 Deep Learning match: similarity=0.828, final_confidence=0.866
+INFO 2026-01-31 06:08:22,270 chatbot_enhanced 11744 23560 Deep Learning match: similarity=0.859, final_confidence=0.859
+INFO 2026-01-31 06:08:50,096 chatbot_enhanced 11744 23560 Deep Learning match: similarity=0.948, final_confidence=0.948
+WARNING 2026-01-31 06:11:23,536 scheduler 27448 24880 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 06:11:28,651 scheduler 23244 6024 APScheduler not available. Error logs will not be auto-cleared.
+DEBUG 2026-01-31 06:11:40,753 chatbot 23244 6024 Grammar check error: 'Match' object has no attribute 'length'
+INFO 2026-01-31 06:11:40,815 chatbot 23244 6024 Found training match for 'how do i register for events' with confidence 0.80
+INFO 2026-01-31 06:11:40,816 chatbot 23244 6024 Found database answer for 'how do I register for events' with confidence 0.8
+WARNING 2026-01-31 06:11:45,852 scheduler 19028 10332 APScheduler not available. Error logs will not be auto-cleared.
+DEBUG 2026-01-31 06:11:57,675 chatbot 19028 10332 Grammar check error: 'Match' object has no attribute 'length'
+INFO 2026-01-31 06:11:57,736 chatbot 19028 10332 Found training match for 'what are the registration fees' with confidence 0.48
+INFO 2026-01-31 06:11:57,738 chatbot 19028 10332 Found database answer for 'what are the registration fees' with confidence 0.48
+INFO 2026-01-31 06:12:23,381 chatbot_enhanced 11744 23560 Deep Learning match: similarity=0.741, final_confidence=0.741
+WARNING 2026-01-31 06:13:28,586 scheduler 22448 22344 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 06:13:34,570 scheduler 21844 11812 APScheduler not available. Error logs will not be auto-cleared.
+DEBUG 2026-01-31 06:13:46,467 chatbot 21844 11812 Grammar check error: 'Match' object has no attribute 'length'
+INFO 2026-01-31 06:13:46,529 chatbot 21844 11812 Found training match for 'registration button takes more than 2 minutes' with confidence 0.63
+INFO 2026-01-31 06:13:46,530 chatbot 21844 11812 Found database answer for 'registration button takes more than 2 minutes' with confidence 0.63
+WARNING 2026-01-31 06:13:52,024 scheduler 18688 23584 APScheduler not available. Error logs will not be auto-cleared.
+DEBUG 2026-01-31 06:14:03,937 chatbot 18688 23584 Grammar check error: 'Match' object has no attribute 'length'
+INFO 2026-01-31 06:14:03,997 chatbot 18688 23584 Found training match for 'contact number for registration help' with confidence 0.65
+INFO 2026-01-31 06:14:03,999 chatbot 18688 23584 Found database answer for 'contact number for registration help' with confidence 0.64
+ERROR 2026-01-31 06:20:39,903 middleware 11744 2932 404 Not Found: GET /favicon.ico
+ERROR 2026-01-31 06:22:54,900 middleware 11744 6736 404 Not Found: GET /favicon.ico
+ERROR 2026-01-31 06:25:30,530 middleware 11744 23248 404 Not Found: GET /favicon.ico
+INFO 2026-01-31 06:27:19,403 chatbot_enhanced 11744 23248 Deep Learning match: similarity=0.741, final_confidence=0.741
+INFO 2026-01-31 06:27:27,985 chatbot_enhanced 11744 16204 Deep Learning match: similarity=0.741, final_confidence=0.741
+INFO 2026-01-31 06:27:40,873 chatbot_enhanced 11744 27408 Deep Learning match: similarity=0.741, final_confidence=0.741
+INFO 2026-01-31 06:28:12,410 chatbot_enhanced 11744 26420 Deep Learning match: similarity=0.741, final_confidence=0.741
+INFO 2026-01-31 06:28:27,746 chatbot_enhanced 11744 27524 Deep Learning match: similarity=0.741, final_confidence=0.741
+INFO 2026-01-31 06:28:55,932 chatbot_enhanced 11744 27524 Deep Learning match: similarity=0.533, final_confidence=0.583
+INFO 2026-01-31 06:30:06,028 chatbot_enhanced 11744 27524 Deep Learning match: similarity=0.533, final_confidence=0.583
+INFO 2026-01-31 06:30:28,149 chatbot_enhanced 11744 27524 Deep Learning match: similarity=0.403, final_confidence=0.403
+INFO 2026-01-31 06:32:20,749 chatbot_enhanced 11744 27524 Deep Learning match: similarity=0.533, final_confidence=0.583
+INFO 2026-01-31 06:34:23,473 chatbot_enhanced 11744 27524 Deep Learning match: similarity=0.533, final_confidence=0.583
+WARNING 2026-01-31 13:23:39,451 scheduler 34652 34656 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 13:23:40,366 scheduler 34744 34748 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 13:23:40,477 chatbot 34744 34748 scikit-learn not installed. Using fallback similarity matching.
+WARNING 2026-01-31 13:23:40,477 chatbot 34744 34748 NLTK not installed. Using basic text processing.
+WARNING 2026-01-31 13:23:40,477 chatbot 34744 34748 TextBlob not installed. Install with: pip install textblob
+WARNING 2026-01-31 13:23:40,483 chatbot 34744 34748 language-tool-python not installed. Install with: pip install language-tool-python
+WARNING 2026-01-31 13:23:40,483 chatbot 34744 34748 spaCy not installed. Install with: pip install spacy
+WARNING 2026-01-31 14:42:57,104 scheduler 8964 16020 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 14:43:13,248 scheduler 12208 21248 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 14:43:27,286 scheduler 24336 3232 APScheduler not available. Error logs will not be auto-cleared.
+WARNING 2026-01-31 14:45:29,410 scheduler 9308 18900 APScheduler not available. Error logs will not be auto-cleared.

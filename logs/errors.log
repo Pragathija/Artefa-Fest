@@ -25,3 +25,79 @@ ERROR 2026-01-29 15:54:28,625 middleware 12796 8252 404 Not Found: GET /favicon.
 ERROR 2026-01-29 15:56:10,912 middleware 12796 8252 404 Not Found: GET /home/wertyu
 ERROR 2026-01-29 16:04:33,332 middleware 12796 8788 404 Not Found: GET /favicon.ico
 ERROR 2026-01-29 17:13:38,388 middleware 5352 7232 404 Not Found: GET /favicon.ico
+ERROR 2026-01-30 12:19:03,243 middleware 27660 2652 404 Not Found: GET /favicon.ico
+ERROR 2026-01-30 12:21:59,759 middleware 27660 22516 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 12:22:35,975 middleware 27660 18124 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 12:26:57,247 middleware 27660 18124 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 12:27:53,142 middleware 27660 18124 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 12:31:23,343 middleware 27660 18124 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 12:33:11,889 middleware 27660 18124 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 12:57:54,269 middleware 28528 23824 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 13:25:25,385 middleware 28528 8648 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 13:31:14,909 middleware 28528 8648 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 13:31:18,048 middleware 28528 8648 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 13:31:36,021 middleware 28528 8648 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 16:30:15,258 middleware 22092 9968 404 Not Found: GET /favicon.ico
+ERROR 2026-01-30 18:04:56,456 middleware 6856 21120 404 Not Found: GET /favicon.ico
+ERROR 2026-01-30 18:05:14,253 middleware 6856 3092 404 Not Found: GET /home/3456
+ERROR 2026-01-30 19:43:47,893 middleware 14216 14072 404 Not Found: GET /favicon.ico
+ERROR 2026-01-30 19:43:50,893 middleware 14216 14612 404 Not Found: GET /progress-summary/
+ERROR 2026-01-30 19:53:15,401 middleware 14216 20104 404 Not Found: GET /.well-known/appspecific/com.chrome.devtools.json
+ERROR 2026-01-30 20:49:41,645 middleware 14216 7796 404 Not Found: GET /favicon.ico
+ERROR 2026-01-31 05:03:33,323 log 14216 26452 Internal Server Error: /edit-schedule/7/
+Traceback (most recent call last):
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\Downloads\ARTIFA FEST\core\views.py", line 1101, in edit_schedule
+    sched.order = int(request.POST.get('order', 0))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR 2026-01-31 05:03:33,332 middleware 14216 26452 500 Internal Server Error: POST /edit-schedule/7/
+ERROR 2026-01-31 05:03:33,465 log 14216 26452 Internal Server Error: /edit-schedule/7/
+ERROR 2026-01-31 05:03:33,465 basehttp 14216 26452 "POST /edit-schedule/7/ HTTP/1.1" 500 41953
+ERROR 2026-01-31 05:07:08,097 log 22272 26500 Internal Server Error: /edit-schedule/7/
+Traceback (most recent call last):
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\Downloads\ARTIFA FEST\core\views.py", line 1101, in edit_schedule
+    sched.order = int(request.POST.get('order', 0))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR 2026-01-31 05:07:08,099 middleware 22272 26500 500 Internal Server Error: POST /edit-schedule/7/
+ERROR 2026-01-31 05:07:08,240 log 22272 26500 Internal Server Error: /edit-schedule/7/
+ERROR 2026-01-31 05:07:08,240 basehttp 22272 26500 "POST /edit-schedule/7/ HTTP/1.1" 500 41953
+ERROR 2026-01-31 05:07:42,756 log 22272 26500 Internal Server Error: /edit-schedule/7/
+Traceback (most recent call last):
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mano Sathiyamoorthi\Downloads\ARTIFA FEST\core\views.py", line 1101, in edit_schedule
+    sched.order = int(request.POST.get('order', 0))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR 2026-01-31 05:07:42,756 middleware 22272 26500 500 Internal Server Error: POST /edit-schedule/7/
+ERROR 2026-01-31 05:07:42,772 log 22272 26500 Internal Server Error: /edit-schedule/7/
+ERROR 2026-01-31 05:07:42,772 basehttp 22272 26500 "POST /edit-schedule/7/ HTTP/1.1" 500 41953
+ERROR 2026-01-31 06:20:39,903 middleware 11744 2932 404 Not Found: GET /favicon.ico
+ERROR 2026-01-31 06:22:54,900 middleware 11744 6736 404 Not Found: GET /favicon.ico
+ERROR 2026-01-31 06:25:30,530 middleware 11744 23248 404 Not Found: GET /favicon.ico

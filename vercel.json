@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "artifa_fest/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "artifa_fest/wsgi.py"
+    }
+  ]
+}
