@@ -980,7 +980,7 @@
                             </div>
 
                             <!-- Participants Section 
-                                     {%if user.is_superuser%}
+                                    {% if user.is_superuser %}
                                     <div style="background: hsl(var(--card) / 0.3); padding: 12px; border-radius: 8px; border-left: 3px solid #4ade80; margin-top: 15px;">
                                         <p style="margin: 0 0 8px 0; font-size: 0.9rem; font-weight: 600; color: #4ade80;">
                                             <i class="fas fa-users me-2"></i>Registered Participants ({{ event.registration_set.all|length }})
