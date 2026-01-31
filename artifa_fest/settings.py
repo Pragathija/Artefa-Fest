@@ -9,7 +9,7 @@ SECRET_KEY = 'django-insecure-your-secret-key-here'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.trycloudflare.com', '.vercel.app', '*']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'testserver', '.trycloudflare.com', '.vercel.app', '*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -81,15 +81,11 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-ALLOWED_HOSTS = [
-    "127.0.0.1", 
-    "localhost",
-    "testserver",
-    ".trycloudflare.com",
-]
+# Consolidated ALLOWED_HOSTS above
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.trycloudflare.com",
+    "https://*.vercel.app",
 ]
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
