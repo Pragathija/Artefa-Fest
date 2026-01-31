@@ -187,7 +187,7 @@ LOGGING = {
         'error_file': {
             'level': 'ERROR',
             'class': 'logging.handlers.RotatingFileHandler' if not IS_VERCEL else 'logging.NullHandler',
-            'filename': os.path.join(LOGS_DIR, 'errors.log') if not IS_VERCEL else None,
+            'filename': os.path.join(LOGS_DIR, 'errors.log') if not IS_VERCEL else '/tmp/error.log',
             'maxBytes': 1024 * 1024 * 10,  # 10MB
             'backupCount': 10,
             'formatter': 'verbose',
@@ -195,7 +195,7 @@ LOGGING = {
         'request_file': {
             'level': 'INFO',
             'class': 'logging.handlers.RotatingFileHandler' if not IS_VERCEL else 'logging.NullHandler',
-            'filename': os.path.join(LOGS_DIR, 'requests.log') if not IS_VERCEL else None,
+            'filename': os.path.join(LOGS_DIR, 'requests.log') if not IS_VERCEL else '/tmp/request.log',
             'maxBytes': 1024 * 1024 * 10,  # 10MB
             'backupCount': 10,
             'formatter': 'verbose',
@@ -203,7 +203,7 @@ LOGGING = {
         'app_file': {
             'level': 'DEBUG',
             'class': 'logging.handlers.RotatingFileHandler' if not IS_VERCEL else 'logging.NullHandler',
-            'filename': os.path.join(LOGS_DIR, 'app.log') if not IS_VERCEL else None,
+            'filename': os.path.join(LOGS_DIR, 'app.log') if not IS_VERCEL else '/tmp/app.log',
             'maxBytes': 1024 * 1024 * 10,  # 10MB
             'backupCount': 10,
             'formatter': 'verbose',
