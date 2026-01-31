@@ -23,14 +23,14 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
-    'core.middleware.ErrorLogMiddleware',
+    # 'core.middleware.ErrorLogMiddleware',
 ]
 
 ROOT_URLCONF = 'artifa_fest.urls'
@@ -148,82 +148,60 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = False  # Keep session after browser closes
 # On Vercel, we only use console logging
 IS_VERCEL = 'VERCEL' in os.environ
 
-if not IS_VERCEL:
+# Logging Configuration
+IS_VERCEL = 'VERCEL' in os.environ
+
+if IS_VERCEL:
+    # Minimal logging for Vercel to avoid startup crashes
+    LOGGING = {
+        'version': 1,
+        'disable_existing_loggers': False,
+        'handlers': {
+            'console': {
+                'class': 'logging.StreamHandler',
+            },
+        },
+        'root': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+        },
+    }
+else:
     LOGS_DIR = os.path.join(BASE_DIR, 'logs')
     os.makedirs(LOGS_DIR, exist_ok=True)
-else:
-    LOGS_DIR = None
-
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'formatters': {
-        'verbose': {
-            'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
-            'style': '{',
+    LOGGING = {
+        'version': 1,
+        'disable_existing_loggers': False,
+        'formatters': {
+            'verbose': {
+                'format': '{levelname} {asctime} {module} {process:d} {message}',
+                'style': '{',
+            },
         },
-        'simple': {
-            'format': '{levelname} {asctime} {message}',
-            'style': '{',
+        'handlers': {
+            'console': {
+                'level': 'DEBUG',
+                'class': 'logging.StreamHandler',
+            },
+            'file': {
+                'level': 'DEBUG',
+                'class': 'logging.handlers.RotatingFileHandler',
+                'filename': os.path.join(LOGS_DIR, 'app.log'),
+                'maxBytes': 1024 * 1024 * 5,
+                'backupCount': 5,
+                'formatter': 'verbose',
+            },
         },
-        'json': {
-            'format': '{"timestamp": "%(asctime)s", "level": "%(levelname)s", "module": "%(module)s", "message": "%(message)s"}',
+        'loggers': {
+            'django': {
+                'handlers': ['console', 'file'],
+                'level': 'INFO',
+                'propagate': True,
+            },
+            'core': {
+                'handlers': ['console', 'file'],
+                'level': 'DEBUG',
+                'propagate': True,
+            },
         },
-    },
-    'filters': {
-        'require_debug_true': {
-            '()': 'django.utils.log.RequireDebugTrue',
-        },
-        'require_debug_false': {
-            '()': 'django.utils.log.RequireDebugFalse',
-        },
-    },
-    'handlers': {
-        'console': {
-            'level': 'DEBUG',
-            'class': 'logging.StreamHandler',
-            'formatter': 'simple',
-        },
-        'error_file': {
-            'level': 'ERROR',
-            'class': 'logging.handlers.RotatingFileHandler' if not IS_VERCEL else 'logging.NullHandler',
-            'filename': os.path.join(LOGS_DIR, 'errors.log') if not IS_VERCEL else '/tmp/error.log',
-            'maxBytes': 1024 * 1024 * 10,  # 10MB
-            'backupCount': 10,
-            'formatter': 'verbose',
-        },
-        'request_file': {
-            'level': 'INFO',
-            'class': 'logging.handlers.RotatingFileHandler' if not IS_VERCEL else 'logging.NullHandler',
-            'filename': os.path.join(LOGS_DIR, 'requests.log') if not IS_VERCEL else '/tmp/request.log',
-            'maxBytes': 1024 * 1024 * 10,  # 10MB
-            'backupCount': 10,
-            'formatter': 'verbose',
-        },
-        'app_file': {
-            'level': 'DEBUG',
-            'class': 'logging.handlers.RotatingFileHandler' if not IS_VERCEL else 'logging.NullHandler',
-            'filename': os.path.join(LOGS_DIR, 'app.log') if not IS_VERCEL else '/tmp/app.log',
-            'maxBytes': 1024 * 1024 * 10,  # 10MB
-            'backupCount': 10,
-            'formatter': 'verbose',
-        },
-    },
-    'loggers': {
-        'django': {
-            'handlers': ['console', 'error_file'],
-            'level': 'INFO',
-            'propagate': False,
-        },
-        'django.request': {
-            'handlers': ['request_file', 'error_file'],
-            'level': 'ERROR',
-            'propagate': False,
-        },
-        'core': {
-            'handlers': ['console', 'app_file', 'error_file'],
-            'level': 'DEBUG',
-            'propagate': False,
-        },
-    },
-}
+    }
