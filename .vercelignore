@@ -1,0 +1,25 @@
+# Vercel Ignore List
+# These files will not be uploaded to Vercel's serverless functions
+
+# Database
+db.sqlite3
+
+# Local Assets & Build Files
+staticfiles/
+node_modules/
+venv/
+.venv/
+.env
+
+# Logs & Temp
+logs/
+*.log
+tmp/
+
+# Metadata
+.git/
+.github/
+.vscode/
+.gemini/
+brain/
+*uploaded_media*
